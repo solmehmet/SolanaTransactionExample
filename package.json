@@ -1,0 +1,16 @@
+{
+  "name": "SolanaTransactionExample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "npx tsc",
+    "run": "npx tsc && node dst/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^9.0.0",
+    "@types/node": "^14.0.0"
+  }
+}
